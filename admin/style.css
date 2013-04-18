@@ -1,0 +1,215 @@
+*
+{
+    margin : 0px;
+    padding : 0px;
+}
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#wrapper
+{
+    width : 1345px;
+    height :  655px;
+    position : relative;
+    left : 0px;
+    background : White;
+    //background : -webkit-linear-gradient(bottom, rgb(229,210,183) 41%, rgb(255,252,220) 71%, rgb(255,255,255) 86%);
+     -webkit-box-shadow: 0px 3px 5px 3px #F2D9bb;
+}
+#wrapper #username
+{
+    position : absolute;
+    top : 30px;
+    left : 1200px;
+    font-size : 20px;
+}
+#wrapper #username a
+{
+    font-size : 17px;
+    color :green;
+    
+}
+header
+{
+    width : 1345px;
+    height : 100px;
+    background-image: linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -o-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -moz-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -webkit-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -ms-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background : #E6E6E6;
+    -webkit-border-radius : 0px 10px 10px 0px;
+}
+header > #title
+{
+    position : relative;
+    font-size : 40px;
+    padding-top : 30px;
+    left : 20px;
+}
+#nav
+{
+    width : 1000px;
+    padding-left: 20px;.
+    padding-right: 20px;
+}
+#content 
+{
+    border-color : transparent;
+}
+#hcontent
+{
+	text-align : left;
+}
+#button
+{
+	display:block;
+	font-size:22px;
+	margin:2em auto 0;
+	padding:9px 0 10px;
+	width:340px;
+	background:-moz-linear-gradient(top,#f7f7f7 0,#dfdfdf 100%);
+	background:-webkit-gradient(linear,left top,ffleft bottom,color-stop(0%,#f7f7f7),color-stop(100%,#dfdfdf));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7',endColorstr='#dfdfdf',GradientType=0);
+}
+
+#button:hover {
+ background:-moz-linear-gradient(top,#6396d8 0,#466899 100%);
+ background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#6396d8),color-stop(100%,#466899));
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6396D8',endColorstr='#466899',GradientType=0);
+ color : white;
+ }
+
+#step1div input {
+	height : 30px;
+	font-size : 18px;
+}
+#step1div select
+{
+    font-size : 15px;
+    height : 35px;
+}
+#head
+{
+position : relative;
+left :350px;
+}
+#success
+{
+	 position : relative;
+    left : 30px;
+    font-size : 15px;
+} 
+#container
+{
+	position : relative;
+    left : 60px;
+}
+#camera
+{
+	position : relative;
+	left : 350px;
+}
+#title2
+{
+	position : relative;
+    left : 320px;
+    font-size : 20px;
+}
+#finallist>table tr td
+{
+    position :relative;
+    padding : 10px
+}
+#finallist>table tr>td:nth-child(1)
+{
+    color : blue;
+}
+#finallist>table tr>td:nth-child(2)
+{
+    color : black;
+}
+#finallist>img
+{
+    position : relative;
+    left : 800px;
+    top : -350px;
+    width : 200px;
+    height : 200px
+}
+#UID
+{
+    font-size : 30px;
+    position: absolute;
+    left : 450px;
+    top : 175px;
+    color : green;
+}
+#barcode
+{
+    position: absolute;
+    left : 530px;
+    top : 250px
+}
+#step2div
+{
+    position : absolute;
+    width : 500px;
+    left : 450px;
+}
+#step2div input
+{
+    height : 30px;
+    margin-left : 50px;
+}
+#step2div select
+{
+    margin-left : 88px;
+    width : 210px;
+    height : 30px;
+}
+.well
+{
+	font-size : 15px;
+}
+#inf
+{
+    position : absolute;
+    width : 500px;
+    left : 200px;
+    margin : 20px;
+    font-size : 17px;
+}
+#details
+{
+    position : absolute;
+    left : 70px;
+    font-size : 15px;
+}
+#state
+{
+    float:left;
+    position : absolute;
+    left : 100px;
+}
+#district
+{
+   float:left;
+   position : absolute;
+   left : 290px;
+}
+#mandal
+{
+   float:left;
+    position : absolute;
+   left : 510px;
+}
+#village
+{
+   float:left;
+    position : absolute;
+   left : 730px;
+}

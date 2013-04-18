@@ -1,0 +1,223 @@
+*
+{
+    margin : 0px;
+    padding : 0px;
+}
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+	overflow-x : hidden;
+}
+
+#wrapper
+{
+    width : 1345px;
+    height :  655px;
+    position : relative;
+    left : 0px;
+    background : White;
+    background : -webkit-linear-gradient(bottom, rgb(229,210,183) 41%, rgb(255,252,220) 71%, rgb(255,255,255) 86%);
+     -webkit-box-shadow: 0px 3px 5px 3px #F2D9bb;
+}
+header
+{
+    width : 1345px;
+    height : 100px;
+    background-image: linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -o-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -moz-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -webkit-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background-image: -ms-linear-gradient(bottom, rgb(188,205,121) 19%, rgb(226,246,158) 60%);
+    background : #E6E6E6;
+    -webkit-border-radius : 0px 10px 10px 0px;
+}
+header > #title
+{
+    position : relative;
+    font-size : 40px;
+    padding-top : 30px;
+    left : 20px;
+}
+#nav
+{
+    width : 1000px;
+    padding-left: 20px;.
+    padding-right: 20px;
+}
+#content 
+{
+    border-color : transparent;
+}
+#citizenbox
+{
+    width : 400px;   
+    position : relative;
+    left : 470px;
+    top :  100px;
+}
+#citizenbox>h1
+{
+    font-size : 20px;
+    background: #829AA8;
+    background: -moz-linear-gradient(#829AA8,#405A6A);
+    background: -webkit-linear-gradient(#829AA8,#405A6A);
+    color  : White;
+    padding-left : 60px;
+    -moz-border-radius : 5px 5px 0px 0px;
+    -webkit-border-radius : 5px 5px 0px 0px;
+}
+#citizenbox label:nth-child(1)
+{
+    padding-bottom: 10px;
+    
+}
+#citizenbox label
+{
+    position : relative;
+    left :33px;
+    font-size : 15px;
+    padding-bottom : 10px
+}
+#citizenbox input
+{
+    position : relative;
+    left : 30px;
+    color : black;
+    font-size : 15px;
+}
+#citizenbox .btn 
+{
+    width : 100px;
+    height :40px;
+    color : white;
+}
+#topdiv
+{
+    background: #FAFAFA;
+    background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+    background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+    height : 50px;
+}
+#topdiv>a
+{
+    position : relative;
+    padding-left : 50px;
+    top : 15px;
+}
+#topdiv>#username
+{
+    position : absolute;
+    top : 2px;
+    left : 1200px;
+    font-size : 20px;
+}
+#topdiv>#username>a
+{
+    font-size : 17px;
+    color :green;
+    
+}
+#details
+{
+    
+}
+#details table tr td
+{
+    padding : 15px;
+    font-size : 15px;
+    
+}
+#details img
+{
+    position : relative;
+    left : 800px;
+    top : -400px;
+    width : 200px;
+    height : 200px;
+}
+#head
+{
+    background: #829AA8;
+    background: -moz-linear-gradient(#829AA8,#405A6A);
+    background: -webkit-linear-gradient(#829AA8,#405A6A);
+    height : 50px;
+    color : white;
+    font-size : 25px;
+    padding-top : 20px;
+    padding-left : 40px;
+}
+#details .btn
+{
+    width : 125px;
+    position : relative;
+    top : -50px;
+    padding : 10px;
+    margin : 10px;
+}
+h6
+{
+    padding : 20px;
+    position : absolute;
+    left : 350px;
+    top : 200px;
+    background: #829AA8;
+    background: -moz-linear-gradient(#829AA8,#405A6A);
+    background: -webkit-linear-gradient(#829AA8,#405A6A);
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius : 5px 5px 5px 5px;
+    color : White;
+    font-size : 20px
+}
+h6>img
+{
+    width : 100px;
+    height :100px;
+}
+#reguser
+{
+    width : 350px;
+    position : absolute;
+    left : 450px;
+    top : 160px;
+}
+#regtitle
+{
+    background: #829AA8;
+    background: -moz-linear-gradient(#829AA8,#405A6A);
+    background: -webkit-linear-gradient(#829AA8,#405A6A);
+    width : 370px;
+    position : absolute;
+    left : 450px;
+    top :125px;
+    padding : 10px;
+    color : white;
+    font-size : 15px;
+    -moz-border-radius : 5px 5px 5px 5px;
+    -webkit-border-radius : 5px 5px 5px 5px;
+    
+}
+#proofs
+{
+    position : absolute;
+    left : 0px;
+    padding : 5px;
+    width : 400px;
+}
+#step2div table tr td 
+{
+	padding : 10px;
+} 
+#step2div
+{
+	margin:0px;
+	margin-bottom: 0px;
+	position :relative;
+	left : 350px;
+	top : 40px;
+	padding : 5px;
+}
+#head2
+{
+    position : absolute;
+    left : 350px;
+}
